@@ -72,5 +72,4 @@ Write-Host -ForegroundColor purple -Object "De tijdelijke pirnter bestanden zijn
 Remove-Item -Path $PrinterdestZip -Recurse 
  
 # Active Directoy installeren en de DC aan het domein toevoegen
-Write-Host -ForegroundColor purple -Object "De DC wordt aan het domein toegevoegd!"
 Install-ADDSForest -DomainName $Domainname -SafeModeAdministratorPassword $SafemodePW -Force 
