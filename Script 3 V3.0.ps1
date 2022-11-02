@@ -41,7 +41,7 @@ $UserProfilesShare = "E:\Shares\UserProfiles"
 $BedrijfsDataShare = "E:\Shares\BedrijfsData"
 $DomainAdmins = "Aventus174376.local\Domain Admins"
 $DomainUsers = "Aventus174376.local\Domain Users"
-$URLUsers = "https://raw.githubusercontent.com/Galaxyreaper25/Bestand-CSV-Users/main/bulk_users_rumb_v5.csv"
+$URLUsers = "https://raw.githubusercontent.com/Galaxyreaper25/Bestand-CSV-Users/main/bulk_users_rumb_v5_V1.0.csv"
 $DestCSVUsers = "C:\Users\Administrator\Documents\gebruikers.csv"
 
 
