@@ -1,0 +1,8 @@
+map,dlr,dlrw
+DIRshare,Directie-Share_R,Directie-Share_RW
+VERshare,Verkoop-Share_R,Verkoop-Share_RW
+STAshare,Staf-Share_R,Staf-Share_RW
+ADMshare,Administratie-Share_R,Administratie-Share_RW
+PROshare,Productie-Share_R,Productie-Share_RW
+FABshare,FabricageBudel-Share_R,FabricageBudel-Share_RW
+AUTshare,Automatisering-Share_R,Automatisering-Share_RW
