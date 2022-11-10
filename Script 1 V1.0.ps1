@@ -50,6 +50,35 @@ Install-WindowsFeature dns -IncludeManagementTools
 Install-WindowsFeature dhcp -IncludeManagementTools
 Install-WindowsFeature RemoteAccess -IncludeManagementTools
 Install-WindowsFeature Print-services -IncludeManagementTools
+### Windows Features
+$features=@(
+  'RemoteAccess',
+  'DirectAccess-VPN',
+  'Routing',
+  'Web-Server',
+  'Web-WebServer',
+  'Web-Common-Http',
+  'Web-Default-Doc',
+  'Web-Dir-Browsing',
+  'Web-Http-Errors',
+  'Web-Static-Content',
+  'Web-Health',
+  'Web-Http-Logging',
+  'Web-Performance',
+  'Web-Stat-Compression',
+  'Web-Security',
+  'Web-Filtering',
+  'Web-IP-Security',
+  'Web-Mgmt-Tools',
+  'Web-Scripting-Tools',
+  'Windows-Internal-Database',
+  'GPMC',
+  'RSAT',
+  'RSAT-Role-Tools',
+  'RSAT-RemoteAccess',
+  'RSAT-RemoteAccess-Powershell'
+)
+Install-WindowsFeature -Name $features
  
 # Commando om de DHCP server in te stellen
 Write-Host -ForegroundColor green -Object "Uw DHCP server wordt ingesteld!"
